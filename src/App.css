@@ -1,0 +1,70 @@
+html,
+body,
+.root {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+}
+
+body,
+.app {
+  background: white;
+}
+
+.list-books-title {
+  padding: 10px 0;
+  background: #268129;
+  text-align: center;
+}
+
+.list-books-title h1 {
+  font-weight: 400;
+  margin: 0;
+  color: white;
+}
+
+.open-search {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+}
+
+.open-search button {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: blue;
+  background-image: url("./icons/add.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 28px;
+  font-size: 0;
+  outline: 0;
+}
+
+.close-search {
+  display: block;
+  top: 20px;
+  left: 15px;
+  width: 50px;
+  height: 53px;
+  background-image: url("./icons/arrow-back.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 28px;
+  font-size: 0;
+  border: none;
+  outline: none;
+}
+
+button:active {
+  border: red;
+  outline: none;
+}
+
+.search-books-results {
+  padding: 80px 10px 20px;
+}
